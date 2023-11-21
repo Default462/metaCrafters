@@ -1,0 +1,25 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.7;
+
+contract Challenge1 {
+    uint eth;
+    uint256 valWei;
+    uint valEther;
+    uint256 valGwei;
+    function setEth(uint eth_) public{
+        eth = eth_;
+        valEther = eth;
+        valWei = eth * 1000000000000000000;        
+        valGwei = eth*1000000000;
+    }
+    function getInWei() public view returns (uint){
+        return valWei;
+    }
+    function getInGwei() public view returns (uint){
+        return valGwei;
+    }
+    function getInEth() public view returns (uint){
+        return eth;
+    }
+    
+}
