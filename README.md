@@ -1,10 +1,10 @@
-Solidity - Token
+**Solidity - Token**
 This is a simple token created in solidity.
 
-Description
+**Description**
 A token created in Solidity that has add and substract functionality.
 
-Getting Started
+**Getting Started**
 To run this program, you can use Remix, an online Solidity IDE. To get started, go to the Remix website at https://remix.ethereum.org/.
 Once you are on the Remix website, create a new file by clicking on the "+" icon in the left-hand sidebar.
 Create a file with name "token.sol"
@@ -13,8 +13,8 @@ Once the code is compiled, you can deploy the contract by clicking on the "Deplo
 command to run if program contains helper info.
 Once the contract is deployed, you can interact with it by calling the "add" and "substract" function.
 
-Authors
+**Authors**
 Deepesh Harbola
 
-License
+**License**
 This project is licensed under the MIT License
